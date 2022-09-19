@@ -2,6 +2,14 @@
     Version: 1.0
 -------------------------------------------------------------------*/
 
+/*--Main Colors-----------------------------------------------------
+
+    #6295CB
+    #005697
+    #00427E
+    https://coolors.co/6295cb-005697-00427e
+-------------------------------------------------------------------*/
+
 
 /*------------------------------------------------------------------
     [Table of contents]
@@ -24,7 +32,6 @@
     16. MISC
     17. BUTTONS
 -------------------------------------------------------------------*/
-
 
 /*------------------------------------------------------------------
     IMPORT FONTS
@@ -52,6 +59,10 @@ body {
     font-size: 15px;
     font-family: 'Raleway', sans-serif;
     line-height: 1.80857;
+    
+    --main-color: #005697;
+    --second-color: #00427E;
+    --third-color: #6295CB;
 }
 
 body.demos .section {
@@ -458,7 +469,7 @@ a img.aligncenter {
 	color: #ffffff;
 	box-shadow: 0 10px 20px 0 rgba(5, 16, 44, .15);
 	border-radius: 25px 0px 25px 0px;
-	background: #fd6802;
+	background: var(--main-color);
 }
 
 .header_style_01 .navbar-default .navbar-nav > li:hover a,
@@ -466,7 +477,7 @@ a img.aligncenter {
     color: #ffffff;
 	box-shadow: 0 10px 20px 0 rgba(5, 16, 44, .15);
 	border-radius: 25px 0px 25px 0px;
-	background: #fd6802;
+	background: var(--second-color);
 }
 
 .header_style_01 .navbar-right > li {
@@ -557,7 +568,7 @@ li.social-links a {
 }
 
 .slide-text h1 span{
-	color: #fd6802;
+	color: var(--third-color);
 }
 
 .slide-text h2 {
@@ -2800,9 +2811,9 @@ select.mobile-device {
 .btn-light {
     padding: 13px 40px;
     font-size: 18px;
-    border: 2px solid #fd6802;
+    border: 2px solid var(--main-color);
     color: #ffffff;
-    background-color: #fd6802;
+    background-color: var(--main-color);
 }
 
 .btn-dark {
@@ -2815,9 +2826,9 @@ select.mobile-device {
 
 .btn-light:hover,
 .btn-light:focus {
-    border-color: #fd6802;
+    border-color: var(--second-color);
     color: rgba(255, 255, 255);
-	background: #393939;
+	background: var(--second-color);
 }
 
 
