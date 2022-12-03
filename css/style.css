@@ -7530,6 +7530,10 @@ button.bg-dark:focus {
   width: 100% !important;
 }
 
+.overlaybg{
+  filter: brightness(0.5);
+}
+
 .w-auto {
   width: auto !important;
 }
